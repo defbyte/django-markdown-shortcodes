@@ -1,0 +1,10 @@
+# ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+# ignore python bytecode
+*.pyc
+# ignore dist
+dist
+# ignore egg and stuff
+*.egg-info
